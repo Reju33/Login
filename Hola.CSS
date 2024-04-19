@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to right , rgb(219, 26, 219),rgb(133, 184, 173));
+}
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-top: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
+  
+  
+
