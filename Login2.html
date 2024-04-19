@@ -3,7 +3,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="NeuralNet Innovations" content="app-id">
 	<link rel="icon" type="image/png" href="img/software.png">
-	<link rel="stylesheet" href="Login.css">
+	<link rel="stylesheet" href="Login2.css">
 	<title>NeuralNet Innovations</title>
 </head>
 
@@ -15,52 +15,38 @@
           <a href="#">About</a>
           <a href="#">Contact</a>
           <a href="#">Help</a>
-    </nav>	
+    </nav>
+
 <div   class="div-con-fondo">
 	<div class="container">
 		<div class="left">
-		  <input type="text" placeholder="Campo 1">
-		  <input type="text" placeholder="Campo 2">
+            <img src="img/IA2.jpeg" alt="Imagen">
 		</div>
 		<div class="right">
-		  <img src="img/IA2.jpeg" alt="Imagen">
+            <div>
+                <h2>class="tile seccion" Log In</h2>
+            </div>
+
+            <div class="Login_seccion">
+                <form >
+                    <p>Username or email</p>
+                        <input type="hidden" name="jsenabled" value="F">
+                        <input type="email" name="email" id="email" placeholder="EMAIL">
+                        <input type="password" name="password" id="password" autocomplete="on"placeholder="PASSWORD" >
+                        <input type="checkbox" name="rememberme" >
+                        <label for="rememberme" class="label-small">Remember Me</label>
+                        <button type="submit" name="submitButton" ><strong>Log In</strong></button>
+                    </div>
+
+                    <div>
+                        <a href="" class="label-small">Forgot your password?</a>
+                    </div>
+                </form>
+            </div>
 		</div>
 	  </div>
-	<div>
-		<div class="div-con-fondo"></div>
-		<div >
-			<!-- LOGIN BOX -->
-			<div >
-				<div>
-					<h2>Log In</h2>
-				</div>
-
-				<div class="Login_seccion">
-					<form >
-						<p>Username or email</p>
-							<input type="hidden" name="jsenabled" value="F">
-							<input type="email" name="email" id="email">
-							<label>Email</label>
-							<p>Password</p>
-							<input type="password" name="password" id="password" autocomplete="on" >
-							<label>Password</label>
-
-							<input type="checkbox" name="rememberme" >
-							<label for="rememberme" class="label-small">Remember Me</label>
-							<button type="submit" name="submitButton" ><strong>Log In</strong></button>
-						</div>
-
-						<div>
-							<a href="" class="label-small">Forgot your password?</a>
-						</div>
-					</form>
-				</div>
-
-
-			</div> <!-- END LOGIN BOX -->
-
-
 	</div>
+</div>
 
 	<!-- END CONTENT -->
 

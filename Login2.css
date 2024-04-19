@@ -1,0 +1,55 @@
+.div-con-fondo{
+    background-color: #000;
+    background-size: cover;
+    }
+
+.navbar a{
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+  }
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right img {
+    max-width: 100%;
+    height: auto;
+  }
+  .Login_seccion {
+    font-family:sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 400px; 
+    margin-bottom:30px;
+    background-color:transparent;
+    color:white;
+    align-items:center;
+    padding: 5px 12px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "poppins",sans-serif;
+  }
+  input[type="email"],[type="password"] {
+    background-color: black;
+    color: white; /* Cambia el color del texto para que sea visible en el fondo negro */
+    border: none; /* Elimina el borde si no lo deseas */
+    padding: 10px; /* Añade relleno para mayor legibilidad */
+  }
+  ::placeholder {
+    font-family: sans-serif; /* Cambia la fuente del placeholder */
+    font-style:normal /* Opcional: cambia el estilo de la fuente */
+    font-size: 20px;
+  }
