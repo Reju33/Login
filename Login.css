@@ -1,7 +1,10 @@
+
 .div-con-fondo{
     background-color: #000;
     background-size: cover;
+    background-image: url(img/redes.jpg);
     }
+
 
     input {
         font-style: ;
@@ -103,3 +106,4 @@ body{
     max-width: 100%;
     height: auto;
   }
+
