@@ -1,0 +1,49 @@
+.Bienvenido {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: bisque;
+    font-family: cursive;
+    padding: auto; 
+    
+}
+#hero {
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.register {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(39, 194, 241);
+    opacity: .5;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin: -25px 0 0 -25px; 
+    text-align: center;
+}
+
+.Newregister1 {
+    position: absolute;
+    z-index: 2;
+}
