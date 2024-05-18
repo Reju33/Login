@@ -5,10 +5,19 @@
 
 .navbar a{
     position: relative;
-    font-size: 16px;
+    font-size: 23px;
     color: #fff;
-    margin-right: 30px;
+    margin-right: 40px;
     text-decoration: none;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  right: 0;
+  background-color: #a32171;
+  width:auto;
+  height: 50px;
+  font-size:xx-large;
 }
 .container {
     display: flex;
@@ -32,7 +41,7 @@
     font-family:sans-serif;
     display: block;
     margin: 2 auto;
-    width: 400px; 
+    width: 200px; 
     margin-bottom:80px;
     background-color:transparent;
     color:white;
@@ -67,6 +76,10 @@
     font-size: small;
     color: #D80286;
   }
+  .label-medium{
+    font-size: medium;
+    color: inherit;
+  }
   .button_slide {
     color: #FFF;
     border: 2px solid rgb(216, 2, 134);
@@ -86,17 +99,66 @@
     box-shadow: inset 0 100px 0 0 #D80286;
   }
   .page-footer{
-    display: block;
-    align-items: end;
-    background-color: #000;
+  
+    background-color:#a33387;
+    position: sticky;
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+  height: 130px;
   }
   .container{
     background-color: black;
-    color: #FFF;
+    color:aqua;
     font-family: sans-serif; /* Cambia la fuente del placeholder */
     font-style:normal /* Opcional: cambia el estilo de la fuente */
     
   }
   .Whatsapp{
-    display: block;
+   display: flex;
+    position: relative;
+margin:50px;
+   
   }
+  .margin-right{
+    display: flex;
+    position: relative;
+    margin: 50px;
+  }
+  
+  .HOME{
+    margin-left: 50PX;
+  }
+  .Register{
+    width: 300px;
+    left: 600px;
+    background-color:rgb(139, 61, 139);
+    position: fixed;
+    top: 30px;
+    right:px;
+    color: aqua;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    margin-top: 10px;
+    visibility: hidden;
+  }
+  input{
+    margin: 30px;
+    background-color: black;
+    color:  rgb(216, 2, 134); /* Cambia el color del texto para que sea visible en el fondo negro */
+    border: none; /* Elimina el borde si no lo deseas */
+    padding: 20px; /* Añade relleno para mayor legibilidad */
+    display: block;
+    border-color: #D80286;
+    border-bottom:#D80286;
+  }
+.Registrar{
+  background-color:#000;
+  border-color: #D80286;
+  border-width:3cm
+}
+.Title{
+  margin: 0 auto;
+}
